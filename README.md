@@ -1,101 +1,116 @@
-```markdown
-# Safari Tours 🌍🦁
+````markdown
+<h1 align="center">🌍 Safari Tours 🦁</h1>
 
-A responsive, visually stunning website designed to showcase safari tour experiences. Built with modern web technologies including **Tailwind CSS**, **HTML**, and **Vanilla JavaScript**, this project features smooth scrolling animations and a clean user interface.
+<p align="center">
+  A responsive and visually captivating safari tour website built with <strong>HTML</strong>, <strong>Tailwind CSS</strong>, and <strong>JavaScript</strong>. <br />
+  Featuring smooth scroll animations, modern layouts, and a mobile-friendly design.
+</p>
 
-## 🚀 Live Demo
-
-[View Website](https://your-vercel-deployment-link.vercel.app/)
-
----
-
-## 📌 Features
-
-- ✨ Clean and modern UI with Tailwind CSS
-- 🎯 Smooth scroll animations using JavaScript
-- 📱 Fully responsive design for all devices
-- 🖼️ Hero sections, tour highlights, and destination showcases
-- 🔗 Navigation with sticky behavior and scroll effects
+<p align="center">
+  <a href="https://safari-tours-henna.vercel.app/" target="_blank"><strong>🚀 View Live Demo</strong></a>
+</p>
 
 ---
 
-## 🔧 Technologies Used
+## ✨ Features
 
-- **HTML5**
-- **Tailwind CSS** – utility-first framework for rapid UI development
-- **JavaScript** – for scroll behavior and basic interactivity
-- **Vercel** – for seamless deployment
+- 🔥 Clean and elegant UI with **Tailwind CSS**
+- 🌈 Smooth scrolling animations powered by **JavaScript**
+- 📱 Fully responsive and mobile-first layout
+- 🖼️ Hero sections, highlights, and tour destination showcases
+- 🔗 Sticky navigation with smooth scroll effects
+
+---
+
+## 💡 Technologies Used
+
+- **HTML5** – Semantically structured content
+- **Tailwind CSS** – Utility-first styling framework
+- **JavaScript** – Interactive scroll behavior & animations
+- **Vercel** – Fast and free deployment
 
 ---
 
 ## 📁 Folder Structure
 
-```
-
+```bash
 safariTours/
 │
 ├── index.html            # Home page
 ├── about.html            # About page
-├── styles.html           # Extra styles (if used)
+├── styles.html           # Additional styles (if used)
 │
 ├── css/
-│   └── styles.css        # Tailwind compiled styles
+│   └── styles.css        # Compiled Tailwind styles
 │
 ├── js/
-│   └── script.js         # Smooth scroll and DOM interactivity
+│   └── script.js         # Smooth scroll logic
 │
 ├── images/
-│   └── ...               # Image assets
+│   └── ...               # Tour and destination images
 │
-└── .vercel/              # Vercel deployment config
-
+└── .vercel/              # Deployment configuration for Vercel
 ````
 
 ---
 
-## 🛠️ Installation & Setup
+## 🛠️ Getting Started
 
-To run locally:
+To run the project locally:
 
-1. Clone the repository
+1. **Clone the repository**
+
    ```bash
    git clone https://github.com/costa-developer/safariTours.git
-````
+   ```
 
-2. Navigate into the project
+2. **Navigate to the project folder**
 
    ```bash
    cd safariTours
    ```
-3. Open `index.html` in your browser (you can use Live Server or double-click)
 
-> Tailwind is used via CDN or precompiled CSS. No build step is required unless you're customizing the Tailwind config.
+3. **Open the `index.html` file** in your browser
+
+   * You can use **Live Server** (VSCode Extension) or double-click the file
+
+> **Note**: Tailwind is included via CDN in this version. No build tools are required unless you choose to customize the Tailwind setup.
 
 ---
 
 ## 🌀 Smooth Scrolling
 
-The project uses vanilla JavaScript to implement smooth scrolling behavior for navigation links. Feel free to customize it further using a library like GSAP or Locomotive Scroll if needed.
+The website features smooth scroll effects for a seamless navigation experience. This is achieved using **vanilla JavaScript**. You can easily enhance or replace this with scroll libraries like **GSAP** or **Locomotive Scroll** if desired.
 
 ---
 
-## 🙌 Contributing
+## 🤝 Contributing
 
-This is a personal/portfolio project. Contributions are welcome – fork the repo, make changes, and submit a pull request.
+This is a personal portfolio project. However, feel free to:
+
+* ⭐ Star this repository
+* 📥 Fork and modify the code
+* 🛠️ Submit improvements via pull requests
 
 ---
 
 ## 📄 License
 
-MIT License © 2025 [Tendai Gumunyu](https://github.com/costa-developer)
+This project is open source under the [MIT License](https://choosealicense.com/licenses/mit/).
+© 2025 [Tendai Gumunyu](https://github.com/costa-developer)
 
 ---
 
 ## 📬 Contact
 
-Have questions or feedback?
+For inquiries, feedback, or collaborations:
 
 * GitHub: [@costa-developer](https://github.com/costa-developer)
-* Email: [constantinegumunyu25@gmail.com](mailto:constantinegumunyu25@gmail.com) *(update if needed)*
+* Email: [constantinegumunyu25@gmail.com](mailto:constantinegumunyu25@gmail.com)
 
+---
+
+<p align="center">
+  Built with ❤️ by <a href="https://github.com/costa-developer">Tendai Gumunyu</a>
+</p>
 ```
