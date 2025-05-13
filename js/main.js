@@ -2,7 +2,6 @@
  * Sublime - Main JS
  *
  * ------------------------------------------------------------------- */
-
 (function($) {
 
     "use strict";
@@ -49,6 +48,26 @@
         });
     };
 
+/* Image Carousel
+    * -------------------------------------------------- 
+
+var ssImageCarousel = function(){
+    const images = [
+        './images/a.jpg',
+        './images/B.jpg',
+        './images/a.jpg',
+        './images/B.jpg'
+    ];
+    let currentIndex = 0;
+    const imageElement = document.getElementById('carousel-image');
+    if(imageElement){
+        setInterval(() =>{
+            currentIndex = (currentIndex + 1) % images.length;
+            imageElement.src = images[currentIndex];
+        }, 2000);
+    }
+};
+*/
 
    /* Menu on Scrolldown
     * ------------------------------------------------------ */
@@ -238,8 +257,57 @@
 
     };
 
+/* set image destination */
+const destinationTexts = {
+    "c1": {
+        text: "Experience the Big Five up close in one of the world’s most famous game reserves. The Kruger National Park offers unrivaled wildlife sightings and a true African safari experience.",
+        href: "/south-africa",
+        buttonText: "Explore South Africa"
+    },
+    "c2": {
+        text: "Immerse yourself in the spectacular wildlife migration of the Maasai Mara. A place of natural beauty, rich culture, and endless adventure.",
+        href: "/kenya",
+        buttonText: "Explore Kenya"
+    },
+    "c3": {
+        text: "Venture into the iconic Serengeti for a safari experience like no other. Witness the awe-inspiring Great Migration and see lions, elephants, and rhinos in their natural home.",
+        href: "/tanzania",
+        buttonText: "Explore Tanzania"
+    },
+    "c4": {
+        text: "Explore the lush and vibrant Okavango Delta by boat, on foot, or in a 4x4. A true wilderness paradise that promises intimate wildlife encounters and breathtaking landscapes.",
+        href: "/botswana",
+        buttonText: "Explore Botswana"
+    }
+};
+
+function changeDestinationText(destinationKey) {
+    const displayElement = document.querySelector(".display-destinations");
+    const buttonElement = document.querySelector("#destination-card button a");
+    
+    if (displayElement && destinationTexts[destinationKey]) {
+        displayElement.innerText = destinationTexts[destinationKey].text;
+        if (buttonElement) {
+            buttonElement.href = destinationTexts[destinationKey].href;
+            buttonElement.innerText = destinationTexts[destinationKey].buttonText;
+        }
+    }
+}
+function setupRadioListeners() {
+    const radioButtons = document.querySelectorAll("input[name='slide']");
+    radioButtons.forEach(radio => {
+        radio.addEventListener("change", function() {
+            if (this.checked) {
+                const destinationKey = this.id;
+                changeDestinationText(destinationKey);
+            }
+        });
+    });
+}
+    
 
    /* Initialize
+    ssImageCarousel(); 
     * ------------------------------------------------------ */
     (function clInit() {
 
@@ -252,7 +320,7 @@
         ssSmoothScroll();
         ssAlertBoxes();
         ssAOS();
-
+        setupRadioListeners();
     })();
 
 })(jQuery);

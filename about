@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+
+        <!-- Basic page needs -->
+        <meta charset="utf-8">
+        <title>Cape Archives Tours and Safari</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+    
+        <!-- Mobile specific metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/vendor.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!-- Tailwind CSS CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+        <!-- Script -->
+        <script src="js/modernizr.js"></script>
+    
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <link rel="icon" href="favicon.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    </head>
+    
+
+
+<body id="top">
+    
+
+   <!-- header
+================================================== -->
+<header class="s-header">
+
+    <nav class="header-nav">
+        <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+        <h3>Navigate to</h3>
+
+        <div class="header-nav__content">
+            <ul class="header-nav__list">
+                <li><a class="smoothscroll" href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll" href="/about.html" title="about">About</a></li>
+                <li><a class="smoothscroll" href="#services" title="services">Services</a></li>
+                <li><a class="smoothscroll" href="#tours" title="tours">Tours</a></li>
+                <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
+            </ul>
+
+            <p>
+                Welcome to Cape Archives Tours, where we bring Cape Town's rich history, vibrant culture, and stunning landscapes to life. Explore the best of Cape Town with our curated tours, designed to offer an immersive experience into the heart of the city. 
+                <a href='#0'>Learn more</a> about how Cape Archives Tours can make your visit unforgettable.
+            </p>
+
+            <ul class="header-nav__social">
+                <li><a href="#0"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#0"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#0"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#0"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+
+        </div> <!-- end header-nav__content -->
+
+    </nav> <!-- end header-nav -->
+
+    <a class="header-menu-toggle" href="#0">
+        <span class="header-menu-icon"></span>
+    </a>
+
+</header> <!-- end s-header -->
+
+<!-- # Site Main Content ================================================== -->
+<section class="bg-white">
+    <section class="backgroundC">
+        <div>
+            <h1 class="t-0 text-[clamp(5.2rem,10vw,var(--text-huge-1))] leading-[1.0465] text-yellow-300">
+                <span class="block mt-20 text-sm">About</span>
+                Hi, I'm Monica
+            </h1>
+        </div>
+    </section> <!-- end pageheader -->
+    
+    
+    
+    <section class="pt-16 pb-12 mx-auto px-40 my-20 bg-white">
+        <div class="grid grid-cols-1 lg:grid-cols-12 xl:grid-cols-12 gap-4 my-20">
+            <div class="col-span-12 lg:col-span-12 xl:col-span-6">
+                <h2 class="text-7xl font-bold mt-0 mb-6 text-gray-900 text-left font-poppins">Your Gateway to Africa's Heartbeat</h2>
+            </div>
+            <div class="col-span-12 lg:col-span-12 xl:col-span-6 flex items-start">
+                <p class="text-[20px] leading-relaxed text-gray-700 font-lora">
+                    At Cape Archives Tours, we don’t just take you on a safari; we invite you to connect with the soul of Africa. Imagine walking where nature's heartbeat resonates, feeling the thrill of discovery with every breath. Our journeys are for the curious, the dreamers, and those who yearn for more than just a view. This is where your adventure transforms into a story—your story.
+                </p>
+            </div>
+        </div> <!-- end pageintro -->
+        <div class="flex mt-20 px-10 py-16">
+            <div class="flex-1 xl:w-[80%]">
+                <figure class="page-media">
+                    <img src="/images/cta.jpg" 
+                         srcset="/images/cta.jpg 600w, /images/cta.jpg 1200w" 
+                         sizes="(max-width: 2400px) 100vw, 2400px" 
+                         alt="Descriptive Alt Text"
+                         class="w-full h-auto" />
+                </figure>
+            </div>
+        </div> <!-- end pagemedia -->
+    
+        <div class="row my-20 pagemain text-black" style="max-width: 1000px;">
+            <div class="column xl-12">
+    
+                <h2 class="display-1 text-black">How I Got Here</h2>
+                <p style="margin-top: 4px;" class="text-gray-700">
+                    My journey began with a simple truth: the wild is calling. Each adventure has shaped my path, teaching me that every sunset holds a story and every footprint leads to connection. This isn’t just about safaris; it’s about understanding our place in this vast tapestry of life. Every moment spent in nature is a lesson waiting to unfold, a chapter in a book that continues to write itself.
+                </p>
+    
+                <h2 class="display-1 text-black">My Values & Beliefs</h2>
+    
+                <div class="flex flex-wrap justify-between">
+                    <div class="w-full md:w-1/2 p-4">
+                        <div class="mb-2 item-title text-black">
+                            <h1 class="item-title text-black">Connection</h1>
+                        </div>
+                        <p class="text-gray-700">
+                            True adventure is about connection—between you and the wild, between the past and the present. Our safaris are crafted to build that bridge.
+                        </p>
+                    </div>
+                    <div class="w-full md:w-1/2 p-4">
+                        <div class="mb-2">
+                            <h1 class="item-title text-black">Exploration</h1>
+                        </div>
+                        <p class="text-gray-700">
+                            Exploration isn’t just about the destination; it’s about the journey. Every twist and turn reveals a new insight, a new story waiting to be told.
+                        </p>
+                    </div>
+                    <div class="w-full md:w-1/2 p-4">
+                        <div class="mb-2">
+                            <h1 class="item-title text-black">Respect</h1>
+                        </div>
+                        <p class="text-gray-700">
+                            We believe in respectful encounters with nature. Every moment in the wild should honor the rhythms of life that sustain it.
+                        </p>
+                    </div>
+                    <div class="w-full md:w-1/2 p-4">
+                        <div class="mb-2">
+                            <h1 class="item-title text-black">Curiosity</h1>
+                        </div>
+                        <p class="text-gray-700">
+                            Curiosity fuels adventure. It’s the spark that ignites the journey, leading us to discoveries that enrich our souls and open our minds.
+                        </p>
+                    </div>
+                </div> <!-- end grid-list-items -->
+    
+                <h2 class="display-1 text-black">Why Work With Us</h2>
+                <p class="text-gray-700">
+                    Choosing Cape Archives Tours means choosing a journey that resonates with purpose. Here, we weave your aspirations into the fabric of Africa’s wilderness. Each experience is meticulously crafted to ensure that your safari is not just a memory, but a lifelong impression. Together, we’ll write a chapter in your story that echoes with the sounds of the wild.
+                </p>
+    
+                <h2 class="display-1 text-black">A Few More Words About Us</h2>
+                <p class="text-gray-700">
+                    At Cape Archives Tours, we believe in the magic of the untamed. Every rustle in the grass, every roar in the distance, beckons to the adventurer in you. Join us as we celebrate the spirit of Africa—raw, authentic, and undeniably transformative. This is more than a tour; it’s a voyage of discovery that will forever change how you see the world.
+                </p>
+    
+            </div> <!-- end grid-block -->
+        </div> <!-- end pagemain -->
+    
+    </section> <!-- end s-content -->
+    
+
+
+
+        <section class="s-testimonials">
+
+            <div class="testimonials__icon" data-aos="fade-up"></div>
+        
+            <div class="row testimonials narrow">
+                <div class="col-full testimonials__slider" data-aos="fade-up">
+        
+                    <!-- Testimonial 1 -->
+                    <div class="testimonials__slide">
+                        <p>Experiencing the wilds of Africa with Cape Archives Safaris was more than a trip—it was an awakening. Each sight, each sound resonated with life. I didn’t just witness; I connected.</p>
+                        <div class="testimonials__author">
+                            Anne Thomas
+                            <span>Safari Enthusiast, New York</span>
+                        </div>
+                    </div>
+        
+                    <!-- Testimonial 2 -->
+                    <div class="testimonials__slide">
+                        <p>Safari isn’t just a vacation. With Cape Archives, it’s a vivid narrative. The intricate tapestry of wildlife and nature unveiled stories I never knew existed. This is how every adventure should feel.</p>
+                        <div class="testimonials__author">
+                            David Moore
+                            <span>Wildlife Photographer, London</span>
+                        </div>
+                    </div>
+        
+                    <!-- Testimonial 3 -->
+                    <div class="testimonials__slide">
+                        <p>The allure of the African landscape is in its nuances, and Cape Archives Safaris revealed them all. I saw the wilderness through a lens that made me feel at home. It wasn’t just a safari—it was a revelation.</p>
+                        <div class="testimonials__author">
+                            Sipho Ndlovu
+                            <span>Documentary Filmmaker, Johannesburg</span>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        
+        <section class="s-contact target-section">
+            <div class="grid-overlay">
+                <div></div>
+            </div>
+        
+            <div class="row section-header narrow" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead">Connect with Us</h3>
+                    <h1 class="display-1">Your safari adventure begins with a conversation</h1>
+                </div>
+            </div>
+        
+            <div class="row contact-main" data-aos="fade-up">
+                <div class="col-full">
+                    <p class="contact-email">
+                        <a href="mailto:info@capearchivestours.com">info@capearchivestours.com</a>
+                    </p>
+                    <p class="contact-address">
+                        22 Cumberland road, Paarden Island<br>
+                        Cape Town, South Africa, 7405 
+                    </p>
+                    <p class="contact-numbers">
+                        Mobile: +27213003939
+                    </p>
+        
+                    <ul class="contact-social">
+                        <li><a href="#0"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#0"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#0"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#0"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#0"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="row">
+                <div class="col-full ss-copyright">
+                    <span>© Copyright 2024 Cape Archives Safaris</span> 
+                </div>
+            </div>
+        
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">Back to Top</a>
+            </div>
+        </footer>
+        
+        <!-- photoswipe background
+        ================================================== -->
+        <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+        
+            <div class="pswp__bg"></div>
+            <div class="pswp__scroll-wrap">
+        
+                <div class="pswp__container">
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                </div>
+        
+                <div class="pswp__ui pswp__ui--hidden">
+                    <div class="pswp__top-bar">
+                        <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                        <div class="pswp__preloader">
+                            <div class="pswp__preloader__icn">
+                                <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                        <div class="pswp__share-tooltip"></div>
+                    </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                    <div class="pswp__caption">
+                        <div class="pswp__caption__center"></div>
+                    </div>
+                </div>
+        
+            </div>
+        
+        </div> <!-- end photoSwipe background -->
+        
+        
+        
+            <!-- Java Script
+            ================================================== -->
+            <script src="js/jquery-3.2.1.min.js"></script>
+            <script src="js/plugins.js"></script>
+            <script src="js/main.js"></script>
+        
+        </body>
+
+
+
+
+        <!--csss
+        
+        #191413
+        #2d281d
+        #24201a
+        
+        
+        -->

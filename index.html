@@ -1,830 +1,525 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-<head>
+    <head>
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Construction</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <link rel="icon" href="favicon.png" type="image/x-icon">
-
-</head>
-
+        <!-- Basic page needs -->
+        <meta charset="utf-8">
+        <title>Safari Dreams and Safari</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+    
+        <!-- Mobile specific metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/vendor.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <!-- Tailwind CSS CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+        <!-- Script -->
+        <script src="js/modernizr.js"></script>
+    
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+        <link rel="icon" href="favicon.png" type="image/x-icon">
+    
+    </head>
+    
 
 <body id="top">
-    
     <!-- preloader
-    ================================================== -->
+    ==================================================
+    ==================================================
+    ==================================================
+    ==================================================
+    ==================================================
+    -->
+    
     <div id="preloader">
         <div id="loader" class="dots-jump">
             <div></div>
             <div></div>
             <div></div>
+            <h1 class="loader-text mt-4">Safari Dreams</h1>
         </div>
     </div>
+    
 
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-  <!--
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="#" alt="Homepage">
-            </a>
-        </div> <!-- end header-logo -->
-
-        <nav class="header-nav">
-
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-
-            <h3>Navigate to</h3>
-
-            <div class="header-nav__content">
-                
+<!-- header
+==================================================
+==================================================
+==================================================
+==================================================
+==================================================
+-->
+<header class="s-header">
+    <nav class="header-nav">
+        <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+        <h3>Navigate to</h3>
+        <div class="flex  flex-col md:flex-row ">
+            <div class="header-nav__content md:w-1/2 p-4">
                 <ul class="header-nav__list">
-                    <li><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                    <li class="main-list"><a  href="/index.html" title="home">Destinations</a>
+                        <ul>
+                            <li class="second-list">South Africa</li>
+                            <li class="second-list">Zimbabwe</li>
+                            <li class="second-list">Botswana</li>
+                        </ul>
+                    </li>
+                    <li><a  href="/about.html" title="about">About</a></li>
+                    <li><a  href="#services" title="services">Services</a></li>
+                    <li><a  href="#tours" title="tours">Tours</a></li>
+                    <li><a  href="#contact" title="contact">Contact</a></li>
                 </ul>
-    
-                <p>At Clean N Go Construction and Landscaping, we believe in transforming spaces and making dreams come true. Our team specializes in providing top-notch construction and landscaping services that combine beauty and functionality. Whether you're envisioning a stunning outdoor oasis or need reliable construction services, we're here to make it happen. Explore our services and see how we turn your vision into reality. <a href='#0'>Learn more</a> about how Clean N Go can enhance your home or business environment.</p>
-    
                 <ul class="header-nav__social">
-                    <li>
-                        <a href="#0"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-behance"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-dribbble"></i></a>
-                    </li>
+                    <li><a href="#0"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-linkedin"></i></a></li>
                 </ul>
-
-            </div> <!-- end header-nav__content -->
-
-        </nav> <!-- end header-nav -->
-
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-icon"></span>
-        </a>
-
-    </header> <!-- end s-header -->
-
-
-    <!-- home
-    ================================================== -->
-    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-
-        <div class="grid-overlay">
-            <div></div>
+            </div> <!-- end header-nav__content 
+            <div class="hidden md:block md:w-1/2 md:pl-8 mx-auto">
+                <img src="./images/cta.jpg"  class="rounded-lg w-full h-auto " alt="navimage"/>
+                <p>Welcome to Safari Dreams, where we bring Cape Town's rich history, vibrant culture, and stunning landscapes to life.
+                   Explore the best of Cape Town with our curated tours, designed to offer an immersive experience into the heart of the city. 
+                   <a href='#0'>Learn more</a> about how Safari Dreams can make your visit unforgettable.
+                </p>
+            </div>-->
         </div>
+    </nav>
+    <!-- end header-nav -->
+    
+    <a class="header-menu-toggle" href="#0">
+        <span class="header-menu-icon"></span>
+    </a>
+</header>
+<!-- end s-header 
+ ===================================
+ ===================================
+ ===================================
+ ===================================
+ ===================================
+ -->
 
-        <div class="home-content">
+<!-- home
+==================================================
+==================================================
+==================================================
+==================================================
+==================================================
+ -->
+<section class="s-home page-hero target-section" data-parallax="scroll" data-position-y=center>
 
-            <div class="row home-content__main">
+    <!-- Video background -->
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="./images/vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
 
-                <h1>
-                    Clean N Go
-                </h1>
+    <div class="home-content">
 
-                <h3>
-                    Transforming Spaces, Creating Lasting Impressions
-                </h3>
+        <div class="row home-content__main">
 
-                <div class="home-content__video">
-                    <a class="video-link" href="https://youtube.com/shorts/RyBngHTbmrM?feature=share" data-lity>
-                        <span class="video-icon"></span>
-                        <span class="video-text">Watch Our Work</span>
-                    </a>
-                </div>
+            <h1>
+                Safari Dreams
+            </h1>
 
-                <div class="home-content__button">
-                    <a href="#about" class="smoothscroll btn btn--primary btn--large">
-                        Discover More
-                    </a>
-                    <a href="#contact" class="smoothscroll btn btn--large">
-                        Get in Touch
-                    </a>
-                </div>
+            <h3>
+                Venture Beyond the Ordinary. Experience Africa’s Wild Beauty.
+            </h3>
 
-            </div> <!-- end home-content__main -->
-
-            <div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
-                    Scroll
+            <div class="home-content__button">
+                <a href="#about" class="smoothscroll btn btn--primary btn--large">
+                    Discover More
+                </a>
+                <a href="#contact" class="smoothscroll btn btn--large">
+                    Plan Your Safari
                 </a>
             </div>
 
-        </div> <!-- end home-content -->
+        </div> <!-- end home-content__main -->
 
-        <ul class="home-social">
-            <li>
-                <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fab fa-pinterest" aria-hidden="true"></i><span>Pinterest</span></a>
-            </li>
-        </ul> <!-- end home-social -->
-
-    </section> <!-- end s-home -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about target-section">
-
-        <div class="row section-header bit-narrow" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Who We Are</h3>
-                <h1 class="display-1">
-                Welcome to Clean N Go Construction & Landscaping – your partner in creating beautiful, functional spaces. From lush gardens to robust renovations, we bring expertise and passion to every project we undertake.
-                </h1>
-            </div>
-        </div> <!-- end section-header -->
-    
-        <div class="row bit-narrow" data-aos="fade-up">
-            <div class="col-full">
-                <p class="lead">
-                At Clean N Go, we specialize in a wide range of services tailored to meet your specific needs. Whether you're looking to enhance your outdoor space with artificial grass or paving, embark on a renovation journey, or maintain the pristine condition of your home with expert plumbing and waterproofing, we are here to help. Our team is dedicated to delivering quality, sustainability, and beauty in everything we do.
-                </p>
-            </div>
-        </div> <!-- end about-desc -->
-    
-        <div class="row bit-narrow">
-            
-            <div class="about-process process block-1-2 block-tab-full">
-    
-                <div class="col-block item-process" data-aos="fade-up">
-                    <div class="item-process__text">
-                        <h4 class="item-title">Consult</h4>
-                        <p>
-                        We begin by understanding your vision and requirements. Our consultation process is designed to gather all the details necessary to ensure we deliver results that perfectly match your expectations, whether it’s for a new paving installation or a comprehensive renovation.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block item-process" data-aos="fade-up">
-                    <div class="item-process__text">
-                        <h4 class="item-title">Design</h4>
-                        <p>
-                        Our creative team crafts personalized designs that integrate functionality with aesthetics. From the layout of artificial grass and paving to the intricate details of Nutec gates and houses, we plan every aspect meticulously.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block item-process" data-aos="fade-up">
-                    <div class="item-process__text">
-                        <h4 class="item-title">Construct</h4>
-                        <p>
-                        Bringing our designs to life is where our expertise shines. We handle everything from tiling and painting to ceiling installations with the highest standards of quality and craftsmanship, ensuring your project is built to last.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block item-process" data-aos="fade-up">
-                    <div class="item-process__text">
-                        <h4 class="item-title">Maintain</h4>
-                        <p>
-                        Our commitment to you extends beyond project completion. We offer ongoing maintenance services for your garden, plumbing, and waterproofing needs, keeping your space in top condition year-round.
-                        </p>
-                    </div>
-                </div>
-    
-            </div> <!-- end process -->
-    
-        </div> <!-- end row -->
-    
-    </section> <!-- end s-about -->
-    
-
-
-    <!-- services
-    ================================================== -->
-    <section id='services' class="s-services target-section darker">
-
-        <div class="row section-header bit-narrow" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Our Services</h3>
-                <h1 class="display-1">
-                At Clean N Go, we take pride in transforming your spaces with our comprehensive range of construction and landscaping services. From vibrant gardens to robust renovations, we deliver quality and satisfaction.
-                </h1>
-            </div>
-        </div> <!-- end section-header -->
-    
-        <div class="row bit-narrow services block-1-2 block-tab-full">
-    
-            <!-- Artificial Grass -->
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-leaf"></i>
-                </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Artificial Grass</h3>
-                    <p>
-                    Enjoy a lush, green lawn all year round with our premium artificial grass installation. Perfect for both residential and commercial properties, our artificial grass provides a low-maintenance and eco-friendly solution.
-                    </p>
-                </div>
-            </div>
-    
-            <!-- Paving Installation -->
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-paving"></i>
-                </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Paving Installation</h3>
-                    <p>
-                    Our expert paving services create beautiful and durable walkways, patios, and driveways. We use high-quality materials and craftsmanship to enhance your property's curb appeal and functionality.
-                    </p>
-                </div>
-            </div>
-    
-            <!-- Tiling -->
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-grid"></i>
-                </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Tiling</h3>
-                    <p>
-                    We offer professional tiling services for bathrooms, kitchens, floors, and more. Our attention to detail and quality materials ensure that your tiled surfaces are both stylish and long-lasting.
-                    </p>
-                </div>
-            </div>
-    
-            <!-- Painting -->
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-paint-brush"></i>
-                </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Painting</h3>
-                    <p>
-                    Our painting services refresh and protect your interiors and exteriors. We use top-quality paints and finishes to provide a flawless, vibrant look that stands the test of time.
-                    </p>
-                </div>
-            </div>
-    
-            <!-- Waterproofing -->
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-water"></i>
-                </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Waterproofing</h3>
-                    <p>
-                    Protect your property from water damage with our expert waterproofing solutions. We address leaks and dampness in foundations, roofs, and walls to keep your spaces dry and secure.
-                    </p>
-                </div>
-            </div>
-    
-            <!-- Renovations -->
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-renovate"></i>
-                </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Renovations</h3>
-                    <p>
-                    From minor updates to major overhauls, our renovation services bring new life to your spaces. We manage every aspect, ensuring your project is completed on time, within budget, and to the highest standards.
-                    </p>
-                </div>
-            </div>
-    
-            <!-- Plumbing -->
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-plumbing"></i>
-                </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Plumbing</h3>
-                    <p>
-                    Our plumbing services cover everything from repairs and installations to comprehensive system upgrades. We ensure your plumbing is efficient, reliable, and built to last.
-                    </p>
-                </div>
-            </div>
-    
-            <!-- Gardening -->
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-garden"></i>
-                </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Gardening</h3>
-                    <p>
-                    Let us enhance your outdoor spaces with our gardening services. From planting and pruning to creating vibrant flower beds and maintaining lawns, we keep your garden flourishing.
-                    </p>
-                </div>
-            </div>
-    
-            <!-- Landscaping -->
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-landscape"></i>
-                </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Landscaping</h3>
-                    <p>
-                    Our landscaping services transform your outdoor areas into beautiful, functional spaces. Whether it’s designing a new garden layout or enhancing your existing landscape, we create environments that inspire.
-                    </p>
-                </div>
-            </div>
-    
-            <!-- Nutec Gates & Houses -->
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-gate"></i>
-                </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Nutec Gates & Houses</h3>
-                    <p>
-                    We specialize in constructing Nutec gates and houses, offering durable and versatile solutions for your property. Our Nutec structures are designed to be both functional and aesthetically pleasing.
-                    </p>
-                </div>
-            </div>
-    
-            <!-- Ceiling Installation -->
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-ceiling"></i>
-                </div>
-                <div class="item-service__text">
-                    <h3 class="item-title">Ceiling Installation</h3>
-                    <p>
-                    Our ceiling installation services provide you with high-quality, beautifully finished ceilings. From standard designs to customized features, we ensure your ceilings are perfect for your space.
-                    </p>
-                </div>
-            </div>
-    
-        </div> <!-- end services -->
-    
-    </section> <!-- end s-services -->
-    
-
-
-    <!-- works
-    ================================================== -->
-    <section id="works" class="s-works target-section">
-
-        <div class="row section-header has-bottom-sep narrow target-section" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Our Works</h3>
-                <h1 class="display-1">
-                We transform spaces with our exceptional construction and landscaping services. Explore some of our recent projects.
-                </h1>
-            </div>
-        </div> <!-- end section-header -->
-    
-        <div class="row masonry-wrap">
-    
-            <div class="masonry">
-    
-                <!-- Project 1: Artificial Grass -->
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/artificial-grass.jpg" class="thumb-link" title="Artificial Grass Installation" data-size="1050x700">
-                                <img src="images/portfolio/artificial-grass.jpg" 
-                                     srcset="images/portfolio/artificial-grass.jpg 1x, images/portfolio/artificial-grass@2x.jpg 2x" alt="Artificial Grass Installation">
-                            </a>
-                        </div>
-    
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Artificial Grass Installation
-                            </h3>
-                            <p class="item-folio__cat">
-                                Landscaping
-                            </p>
-                        </div>
-    
-                        <a href="#" class="item-folio__project-link" title="Project link">
-                            <i class="icon-link"></i>
-                        </a>
-    
-                        <div class="item-folio__caption">
-                            <p>Transformed a dull backyard into a vibrant green space with our top-quality artificial grass, providing a low-maintenance, eco-friendly lawn.</p>
-                        </div>
-    
-                    </div>
-                </div> <!-- end masonry__brick -->
-    
-                <!-- Project 2: Paving Installation -->
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/paving-installation.jpg" class="thumb-link" title="Paving Installation" data-size="1050x700">
-                                <img src="images/portfolio/paving-installation.jpg" 
-                                     srcset="images/portfolio/paving-installation.jpg 1x, images/portfolio/paving-installation@2x.jpg 2x" alt="Paving Installation">
-                            </a>
-                        </div>
-    
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Paving Installation
-                            </h3>
-                            <p class="item-folio__cat">
-                                Construction
-                            </p>
-                        </div>
-    
-                        <a href="#" class="item-folio__project-link" title="Project link">
-                            <i class="icon-link"></i>
-                        </a>
-    
-                        <div class="item-folio__caption">
-                            <p>Created a stunning patio area using high-quality paving stones, perfect for outdoor gatherings and adding significant value to the property.</p>
-                        </div>
-    
-                    </div>
-                </div> <!-- end masonry__brick -->
-    
-                <!-- Project 3: Bathroom Tiling -->
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/bathroom-tiling.jpg" class="thumb-link" title="Bathroom Tiling" data-size="1050x700">
-                                <img src="images/portfolio/bathroom-tiling.jpg"
-                                     srcset="images/portfolio/bathroom-tiling.jpg 1x, images/portfolio/bathroom-tiling@2x.jpg 2x" alt="Bathroom Tiling">
-                            </a>
-                        </div>
-    
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Bathroom Tiling
-                            </h3>
-                            <p class="item-folio__cat">
-                                Renovations
-                            </p>
-                        </div>
-    
-                        <a href="#" class="item-folio__project-link" title="Project link">
-                            <i class="icon-link"></i>
-                        </a>
-    
-                        <div class="item-folio__caption">
-                            <p>Upgraded a bathroom with stylish, modern tiles that offer both aesthetic appeal and durability.</p>
-                        </div>
-    
-                    </div>
-                </div> <!-- end masonry__brick -->
-    
-                <!-- Project 4: Exterior Painting -->
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/exterior-painting.jpg" class="thumb-link" title="Exterior Painting" data-size="1050x700">
-                                <img src="images/portfolio/exterior-painting.jpg" 
-                                     srcset="images/portfolio/exterior-painting.jpg 1x, images/portfolio/exterior-painting@2x.jpg 2x" alt="Exterior Painting">
-                            </a>
-                        </div>
-    
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Exterior Painting
-                            </h3>
-                            <p class="item-folio__cat">
-                                Painting
-                            </p>
-                        </div>
-    
-                        <a href="#" class="item-folio__project-link" title="Project link">
-                            <i class="icon-link"></i>
-                        </a>
-    
-                        <div class="item-folio__caption">
-                            <p>Refreshed the exterior of a home with a vibrant, weather-resistant paint, enhancing curb appeal and protection against the elements.</p>
-                        </div>
-    
-                    </div>
-                </div> <!-- end masonry__brick -->
-    
-                <!-- Project 5: Waterproofing Solutions -->
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/waterproofing.jpg" class="thumb-link" title="Waterproofing Solutions" data-size="1050x700">
-                                <img src="images/portfolio/waterproofing.jpg" 
-                                     srcset="images/portfolio/waterproofing.jpg 1x, images/portfolio/waterproofing@2x.jpg 2x" alt="Waterproofing Solutions">
-                            </a>
-                        </div>
-    
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Waterproofing Solutions
-                            </h3>
-                            <p class="item-folio__cat">
-                                Construction
-                            </p>
-                        </div>
-    
-                        <a href="#" class="item-folio__project-link" title="Project link">
-                            <i class="icon-link"></i>
-                        </a>
-    
-                        <div class="item-folio__caption">
-                            <p>Implemented advanced waterproofing techniques to protect a building's foundation and roof from moisture and leaks.</p>
-                        </div>
-    
-                    </div>
-                </div> <!-- end masonry__brick -->
-    
-                <!-- Project 6: Garden Makeover -->
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/garden-makeover.jpg" class="thumb-link" title="Garden Makeover" data-size="1050x700">
-                                <img src="images/portfolio/garden-makeover.jpg"
-                                     srcset="images/portfolio/garden-makeover.jpg 1x, images/portfolio/garden-makeover@2x.jpg 2x" alt="Garden Makeover">
-                            </a>
-                        </div>
-    
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Garden Makeover
-                            </h3>
-                            <p class="item-folio__cat">
-                                Landscaping
-                            </p>
-                        </div>
-    
-                        <a href="#" class="item-folio__project-link" title="Project link">
-                            <i class="icon-link"></i>
-                        </a>
-    
-                        <div class="item-folio__caption">
-                            <p>Transformed an underutilized backyard into a beautiful, functional garden space with new plantings and a custom layout.</p>
-                        </div>
-    
-                    </div>
-                </div> <!-- end masonry__brick -->
-    
-                <!-- Project 7: Nutec Gate Installation -->
-                <div class="masonry__brick" data-aos="fade-up">
-                    <div class="item-folio">
-                            
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/nutec-gate.jpg" class="thumb-link" title="Nutec Gate Installation" data-size="1050x700">
-                                <img src="images/portfolio/nutec-gate.jpg"
-                                     srcset="images/portfolio/nutec-gate.jpg 1x, images/portfolio/nutec-gate@2x.jpg 2x" alt="Nutec Gate Installation">
-                            </a>
-                        </div>
-    
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Nutec Gate Installation
-                            </h3>
-                            <p class="item-folio__cat">
-                                Fencing
-                            </p>
-                        </div>
-    
-                        <a href="#" class="item-folio__project-link" title="Project link">
-                            <i class="icon-link"></i>
-                        </a>
-    
-                        <div class="item-folio__caption">
-                            <p>Installed a durable and attractive Nutec gate, providing enhanced security and a modern look to the property.</p>
-                        </div>
-    
-                    </div>
-                </div> <!-- end masonry__brick -->
-    
-            </div> <!-- end masonry -->
-    
-        </div> <!-- end masonry-wrap -->
-    
-    </section> <!-- end s-works -->
-    
-
-
-    <!-- clients
-    ================================================== 
-    <section id="clients" class="s-clients target-section darker">
-
-        <div class="grid-overlay">
-            <div></div>
+        <div class="home-content__scroll">
+            <a href="#about" class="scroll-link smoothscroll">
+                Scroll
+            </a>
         </div>
 
-        <div class="row section-header text-center narrow" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Our Clients</h3>
-                <h1 class="display-1">Who we have work with</h1>
-            </div>
-        </div> <!-- end section-header 
+    </div> <!-- end home-content -->
 
-        <div class="row clients-wrap" data-aos="fade-up">
-            <div class="col-twelve">
-                <ul class="clients">
-                    <li><a href="#0">Uber</a></li>
-                    <li><a href="#0">Spotify</a></li>
-                    <li><a href="#0">Grab</a></li>
-                    <li><a href="#0">Dropbox</a></li>
-                    <li><a href="#0">IBM</a></li>
-                    <li><a href="#0">Microsoft</a></li>
-                    <li><a href="#0">Xiaomi</a></li>
-                    <li><a href="#0">Adidas</a></li>
-                    <li><a href="#0">Mozilla</a></li>
-                    <li><a href="#0">Apple</a></li>
-                    <li><a href="#0">Google</a></li>
-                    <li><a href="#0">Asus</a></li>
-                </ul>
-            </div>
+    <ul class="home-social">
+        <li><a href="#0"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+        <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twitter</span></a></li>
+        <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a></li>
+        <li><a href="#0"><i class="fab fa-linkedin"></i><span>LinkedIn</span></a></li>
+    </ul> <!-- end home-social -->
+
+</section> <!-- end s-home -->
+
+<style>
+    .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: -1; /* Ensure the video is behind other content */
+    }
+    
+    video {
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        object-fit: cover; /* Ensures video covers the entire background */
+    }
+</style>
+
+
+
+<!-- about
+==================================================
+==================================================
+==================================================
+==================================================
+ -->
+ <section class="s-about target-section">
+    <div class="row section-header bit-narrow" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">We are Cape Archives Safari – your safari adventure experts.</h3>
+            <h1 class="display-1">
+                Explore Earth's wildest, most extraordinary places.
+            </h1>
         </div>
+    </div> <!-- end section-header -->
 
-    </section> <!-- end s-clients -->
+    <div class="row bit-narrow" data-aos="fade-up">
+        <div class="col-full">
+            <p class="lead">
+                At Safari Dreams, we don't just offer safaris—we craft transformative journeys.As the world’s foremost conservation and hospitality company, we proudly steward some of the planet's most vital and pristine wilderness areas. Each destination in our Collection is thoughtfully selected for its critical role in safeguarding both the land and its wildlife.
+
+                Our destinations are expansive, remote, and wild, offering access to over 6 million acres of private land. Here, you’ll experience intimate wildlife encounters and life-changing adventures that will stay with you forever.
+            </p>
+        </div>
+        <div class="carousel">
+            <img id="carousel-image" src="./images/about.jpg" class="rounded-lg" />
+        </div>
+    </div> <!-- end about-desc -->
+</section>
 
 
-    <!-- testimonies
-    ================================================== -->
-    <section class="s-testimonials">
+<!-- end s-about
+ ==================================================
+ ==================================================
+ ==================================================
+ ================================================== -->
 
-        <div class="testimonials__icon" data-aos="fade-up"></div>
-    
-        <div class="row testimonials narrow">
-    
-            <div class="col-full testimonials__slider" data-aos="fade-up">
-    
-                <!-- Testimonial 1 -->
-                <div class="testimonials__slide">
-                    <p>We hired Clean N Go for a complete backyard transformation. They installed artificial grass, built a beautiful patio, and even added a small garden. Their attention to detail and dedication to quality are unmatched. We couldn't be happier with the result!</p>
-                    <div class="testimonials__author">
-                        John Smith
-                        <span>Homeowner, Cape Town</span>
-                    </div>
-                </div> <!-- end testimonials__slide -->
-    
-                <!-- Testimonial 2 -->
-                <div class="testimonials__slide">
-                    <p>Clean N Go Construction and Landscaping renovated our bathroom, and the results are stunning. The tiling and finishes are of the highest standard. The team was professional, efficient, and a pleasure to work with. Highly recommended!</p>
-                    <div class="testimonials__author">
-                        Sarah Johnson
-                        <span>Homeowner, Stellenbosch</span>
-                    </div>
-                </div> <!-- end testimonials__slide -->
-    
-                <!-- Testimonial 3 -->
-                <div class="testimonials__slide">
-                    <p>Our driveway needed significant repairs, and Clean N Go delivered exceptional service. The new paving looks great, and the team completed the job on time and within budget. Their expertise in construction is evident in the quality of their work.</p>
-                    <div class="testimonials__author">
-                        Michael Lee
-                        <span>Property Manager, Durban</span>
-                    </div>
-                </div> <!-- end testimonials__slide -->
-                
-            </div> <!-- end testimonials__slider -->
-    
-        </div> <!-- end testimonials -->
-    
-    </section> <!-- end s-testimonials -->
-    
+<!--new section-->
 
-<!-- contact
+<!-- destinations
+==================================================
+==================================================
+==================================================
 ================================================== -->
-<section id="contact" class="s-contact target-section">
+<section class="s-services target-section backgroundF">
 
+    <div class="row section-header bit-narrow" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Capturing Nature's Majesty</h3>
+            <h1 class="display-1">
+                Safari Dreams offers unforgettable adventures in Africa’s top game parks, showcasing wildlife and iconic landscapes.
+            </h1>
+        </div>
+    </div>
+    <div class="wrapper-reveal-images flex">
+        
+        <div class="container">
+            <input type="radio" name="slide" id="c1" checked>
+            <label for="c1" class="card">
+                <div class="row">
+                    <div class="icon">1</div>
+                    <div class="description">
+                        <h4>Kruger National Park, South Africa</h4>
+                        <p>Experience the Big Five up close in one of the world’s most famous game reserves. The Kruger National Park offers unrivaled wildlife sightings and a true African safari experience.</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c2" >
+            <label for="c2" class="card">
+                <div class="row">
+                    <div class="icon">2</div>
+                    <div class="description">
+                        <h4>Maasai Mara, Kenya</h4>
+                        <p>Immerse yourself in the spectacular wildlife migration of the Maasai Mara. A place of natural beauty, rich culture, and endless adventure.</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c3" >
+            <label for="c3" class="card">
+                <div class="row">
+                    <div class="icon">3</div>
+                    <div class="description">
+                        <h4>Serengeti National Park, Tanzania</h4>
+                        <p>Venture into the iconic Serengeti for a safari experience like no other. Witness the awe-inspiring Great Migration and see lions, elephants, and rhinos in their natural home.</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c4" >
+            <label for="c4" class="card">
+                <div class="row">
+                    <div class="icon">4</div>
+                    <div class="description">
+                        <h4>Okavango Delta, Botswana</h4>
+                        <p>Explore the lush and vibrant Okavango Delta by boat, on foot, or in a 4x4. A true wilderness paradise that promises intimate wildlife encounters and breathtaking landscapes.</p>
+                    </div>
+                </div>
+            </label>
+        </div>
+    </div>
+
+    <div class="row section-header bit-narrow mt-8" data-aos="fade-up">
+        <div class="col-full flex md:flex-nowrap flex-wrap" id="destination-card">
+            <h1 class="display-destinations">
+                Safari Dreams offers unforgettable adventures in Africa’s top game parks, showcasing wildlife and iconic landscapes.
+            </h1>
+            <button class="bg-green-900 text-white py-2 px-4 rounded"><a href="/south-africa">South Africa</a></button>
+        </div>
+    </div>
+
+</section> 
+<!-- end destinations
+ ==================================================
+ ==================================================
+ ==================================================
+ ==================================================
+-->
+<!-- Random_slide
+ ==================================================
+ ==================================================
+ ==================================================
+ ==================================================
+-->
+
+<section class="s-random target-section">
+
+    <div class="random__icon" data-aos="fade-up"></div>
+
+    <div class="row random narrow">
+        <div class="col-full random__slider" data-aos="fade-up">
+            <div class="random__slide">
+                <h1 class="display-1">Adventure awaits. Be equipped.</h1>
+                <p>Embrace the spirit of exploration with a collection of products designed for the eco-conscious traveler. Nature Trek & Wild Spirit. From coastal trails to mountain peaks. From serene forests to bustling cities. The great outdoors just became more sustainable. Prepare for your next journey with this exclusive line, available in multiple sizes and four vibrant color options to match every adventure.</p>
+                <div class="random__author">
+                    Globetreksnaps
+                    <span>Travel Blogger, Cape Town</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+   
+<!--End of Random_slide
+ ==================================================
+ ==================================================
+ ==================================================
+ ==================================================
+-->
+   
+<!-- Environment
+ ==================================================
+ ==================================================
+ ==================================================
+ ==================================================  
+
+ 
+
+    <section class="target-section bg-custom">
+        <div class="max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 sm:mb-0 mb-10">
+          <div class="relative">
+            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white bg-cover bg-center text-white"
+                style="background-image: url('./images/Green Highlight.png');">
+              Protecting Our Natural Heritage
+            </h1>
+          </div>
+          <div class="flex flex-wrap justify-center items-center md:h-screen max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div class="w-full md:w-1/3 lg:w-[300px] p-4">
+              <div class="p-8 mb-8 bg-center"
+                   style="background-image: url('./images/Green Circle (Large).png'); background-repeat: no-repeat; background-size: cover;">
+                <h3 class="item-title">Conservation Efforts</h3>
+                <p class="text-white mt-2">
+                  Our safari experiences are designed with a deep respect for nature. We actively support conservation projects, ensuring that local wildlife and habitats are protected for future generations.
+                </p>
+              </div>
+              <div class="p-4">
+                <h3 class="item-title">Sustainable Tourism</h3>
+                <p class="text-white mt-2">
+                  Sustainability is at the heart of our safaris. We strive to minimize our impact by promoting eco-friendly practices and educating visitors on the importance of preserving our natural surroundings.
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-1/3 lg:w-[400px] p-4">
+              <img src="./images/Plant_02.png" alt="Tree Image" class="mx-auto" />
+            </div>
+            <div class="w-full md:w-1/3 lg:w-[300px] p-4">
+              <div class="p-4 mb-8">
+                <h3 class="item-title">Local Community Support</h3>
+                <p class="text-white mt-2">
+                  We partner with local communities to create opportunities that respect and celebrate indigenous culture, fostering a positive and sustainable relationship between people and the environment.
+                </p>
+              </div>
+              <div class="p-8 mb-4 bg-center"
+                   style="background-image: url('./images/Green Circle (Large).png'); background-repeat: no-repeat; background-size: cover;">
+                <h3 class="item-title">Environmental Education</h3>
+                <p class="text-white mt-2">
+                  Our guides are passionate about the ecosystem and share insights that help visitors understand the delicate balance of our environment, inspiring everyone to contribute to its protection.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+ End of Environment
+ ==================================================
+ ==================================================
+ ==================================================
+ ==================================================
+-->
+      
+
+<section class="s-testimonials">
+
+    <div class="testimonials__icon" data-aos="fade-up"></div>
+
+    <div class="row testimonials narrow">
+        <div class="col-full testimonials__slider" data-aos="fade-up">
+
+            <!-- Testimonial 1 -->
+            <div class="testimonials__slide">
+                <p>Experiencing the wilds of Africa with Safari Dreams was more than a trip—it was an awakening. Each sight, each sound resonated with life. I didn’t just witness; I connected.</p>
+                <div class="testimonials__author">
+                    Anne Thomas
+                    <span>Safari Enthusiast, New York</span>
+                </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonials__slide">
+                <p>Safari isn’t just a vacation. With Cape Archives, it’s a vivid narrative. The intricate tapestry of wildlife and nature unveiled stories I never knew existed. This is how every adventure should feel.</p>
+                <div class="testimonials__author">
+                    David Moore
+                    <span>Wildlife Photographer, London</span>
+                </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonials__slide">
+                <p>The allure of the African landscape is in its nuances, and Safari Dreams revealed them all. I saw the wilderness through a lens that made me feel at home. It wasn’t just a safari—it was a revelation.</p>
+                <div class="testimonials__author">
+                    Sipho Ndlovu
+                    <span>Documentary Filmmaker, Johannesburg</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="s-contact target-section">
     <div class="grid-overlay">
         <div></div>
     </div>
 
     <div class="row section-header narrow" data-aos="fade-up">
         <div class="col-full">
-            <h3 class="subhead">Keep In Touch</h3>
-            <h1 class="display-1">Feel free to contact us for any <br> project idea or collaboration</h1>
+            <h3 class="subhead">Connect with Us</h3>
+            <h1 class="display-1">Your safari adventure begins with a conversation</h1>
         </div>
-    </div> <!-- end section-header -->
+    </div>
 
     <div class="row contact-main" data-aos="fade-up">
         <div class="col-full">
             <p class="contact-email">
-                <a href="mailto:bastebrend@gmail.com">bastebrend@gmail.com</a>
+                <a href="mailto:info@digitalizeiq">info@digitalizeiq</a>
             </p>
             <p class="contact-address">
-                123 Main Road, Wynberg <br>
-                Cape Town, South Africa, 7800
+                22 Cumberland road, Paarden Island<br>
+                Cape Town, South Africa, 7405 
             </p>
             <p class="contact-numbers">
-                Mobile: +27 61 945 4381
+                Mobile: +27694146198
             </p>
 
             <ul class="contact-social">
-                <li>
-                    <a href="#0"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="#0"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="#0"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li>
-                    <a href="#0"><i class="fab fa-linkedin"></i></a>
-                </li>
-                <li>
-                    <a href="#0"><i class="fab fa-youtube"></i></a>
-                </li>
+                <li><a href="#0"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#0"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#0"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#0"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#0"><i class="fab fa-youtube"></i></a></li>
             </ul>
         </div>
     </div>
+</section>
 
-</section> <!-- end s-contact -->
+<footer>
+    <div class="row">
+        <div class="col-full ss-copyright">
+            <span>© Copyright 2024 Safari Dreams</span> 
+        </div>
+    </div>
 
+    <div class="ss-go-top">
+        <a class="smoothscroll" title="Back to Top" href="#top">Back to Top</a>
+    </div>
+</footer>
 
+<!-- photoswipe background
+================================================== -->
+<div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
 
-    <!-- footer
-    ================================================== -->
-    <footer>
-        <div class="row">
-            <div class="col-full ss-copyright">
-                <span>© Copyright 2024</span> 
-            </div>
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
         </div>
 
-        <div class="ss-go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top">Back to Top</a>
-        </div>
-    </footer>
-
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
                         </div>
                     </div>
                 </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
             </div>
-
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
         </div>
 
-    </div> <!-- end photoSwipe background -->
+    </div>
+
+</div> <!-- end photoSwipe background -->
+
 
 
     <!-- Java Script
